@@ -1,0 +1,18 @@
+Device: cuda | eval windows: 4
+
+[Window 1/4] origin 2022-07-24 22:00:00+00:00 ... training
+  window mean  PI1=1.223  PI2=1.762  PI3=4.244
+
+[Window 2/4] origin 2022-10-30 23:00:00+00:00 ... training
+  window mean  PI1=2.027  PI2=2.072  PI3=9.047
+
+[Window 3/4] origin 2023-01-15 23:00:00+00:00 ... training
+  window mean  PI1=1.783  PI2=1.827  PI3=4.910
+
+[Window 4/4] origin 2023-03-05 23:00:00+00:00 ... training
+  window mean  PI1=1.383  PI2=1.202  PI3=4.371
+
+=== LSTM baseline (mean over 4 windows x 10 DMAs, L/s) ===
+PI1    1.6043
+PI2    1.7159
+PI3    5.6433
