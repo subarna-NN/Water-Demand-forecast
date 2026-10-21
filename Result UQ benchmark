@@ -1,0 +1,19 @@
+Device:cuda | 4 weeks | 3 seeds/method | methods: ['QR', 'CQR', 'Gaussian', 'MC-Dropout', 'DeepAR', 'BCP-PINN']
+  QR          PI1=1.842 COV90=0.776 MPIW=5.976 Pinball=0.599 Winkler=11.516
+  CQR         PI1=1.842 COV90=0.921 MPIW=7.935 Pinball=0.599 Winkler=9.653
+  Gaussian    PI1=2.726 COV90=0.861 MPIW=9.641 Pinball=0.767 Winkler=13.533
+  MC-Dropout  PI1=1.606 COV90=0.367 MPIW=1.863 Pinball=0.666 Winkler=20.434
+  DeepAR      PI1=2.291 COV90=0.789 MPIW=7.929 Pinball=0.777 Winkler=14.122
+  BCP-PINN    PI1=1.798 COV90=0.910 MPIW=7.640 Pinball=0.599 Winkler=9.465
+
+=== Experiment 5: UQ-method comparison (mean over 4 weeks x 10 DMAs) ===
+               PI1   COV90    MPIW  Pinball  Winkler
+Method                                              
+QR          1.8417  0.7762  5.9761   0.5994  11.5160
+CQR         1.8417  0.9215  7.9354   0.5994   9.6533
+Gaussian    2.7262  0.8611  9.6406   0.7670  13.5334
+MC-Dropout  1.6056  0.3674  1.8630   0.6665  20.4340
+DeepAR      2.2910  0.7889  7.9289   0.7766  14.1221
+BCP-PINN    1.7977  0.9100  7.6401   0.5988   9.4646
+
+Time: 1284s
