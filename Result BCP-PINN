@@ -1,0 +1,16 @@
+Device:cuda | physics=True calib=True | ENSEMBLE of 5 seeds
+  [seed 42] PI1=2.125 COV90=0.890 Winkler=10.508
+  [seed 43] PI1=2.049 COV90=0.899 Winkler=10.080
+  [seed 44] PI1=1.691 COV90=0.877 Winkler=9.559
+  [seed 45] PI1=1.716 COV90=0.901 Winkler=9.328
+  [seed 46] PI1=1.665 COV90=0.912 Winkler=9.356
+
+=== BCP-PINN  ENSEMBLE (5 seeds)  mean over 4 windows x 10 DMAs ===
+PI1        1.6490
+PI2        1.6843
+PI3        5.0726
+COV90      0.9226
+MPIW       7.4264
+Pinball    0.5507
+Winkler    9.0915
+Time: 555s
